@@ -8,16 +8,16 @@
 easy_admin:
     entities:
         Student:
-            class: AppBundle\Entity\Student
+            class: App\Entity\Student
             list:
-                fields: ['firtname', 'lastname','response']
+                fields: ['firstname', 'lastname','response']
             form:
                 fields:
                     - 'firstname'
                     - 'lastname'
                     - 'response'
         Resource:
-            class: AppBundle\Entity\Resource
+            class: App\Entity\Resource
             list:
                 fields: ['soft', 'alcohol', 'food', { property: 'student.firstname', label: 'Category' }]
             form:
