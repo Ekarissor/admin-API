@@ -1,12 +1,40 @@
-# admin-API # 
+## AUTHOR
 
-Premier essaie de création d'une API, pour les ECF POP School Lens
+* Alexandre Briffaut
 
-# Prérequis #
 
-- Symfony 4.2.3
-- PHP 7
+## PARTICIPATION
 
-# Installation #
+* Sullivan Delaby
+* Justine Moreau
 
-Git clone = https://github.com/Ekarissor/admin-API.git
+
+## DESCRIPTION
+
+* Projet fictif qui a pour but de valider un ecf en cours de formation (PopSchool Lens).
+* Fictional project that aims to validate an ecf during training (PopSchool Lens).
+* Création d'une API avec symfony.
+* Creation of an API with symfony.
+
+
+### PREREQUIS
+
+* Symfony 4.2.3
+* PHP 7.3 et dépendance (curl et zip)
+* Composer
+
+### INSTALATION
+
+* Git clone https://github.com/Ekarissor/admin-API.git
+* Ouvrir un terminal dans le dossier cloné
+* Taper la commande
+ 
+```composer install``` 
+* Taper la commande
+ 
+```php bin/console doctrine:database:create``` 
+* Taper la commande
+```php bin/console make:migration```
+* Taper la commande
+```php bin/console doctrine:migration:migrate```
+* if you want , i added fictiv datas for example
