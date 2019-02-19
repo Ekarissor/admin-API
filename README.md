@@ -26,12 +26,11 @@
 ### INSTALATION
 
 * Git clone https://github.com/Ekarissor/admin-API.git
-* Ouvrir un terminal dans le dossier cloné
-* Taper la commande
+* Open a terminal in the cloned folder
+* Wrote command
  
 ```composer install``` 
-* Taper la commande
- 
+* Wrote command 
 ```php bin/console doctrine:database:create``` 
 * Taper la commande
 ```php bin/console make:migration```

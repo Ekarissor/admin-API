@@ -26,5 +26,6 @@ security:
                 path: security_logout
                 target: security_login
     access_control:
-         - { path: ^/admin, roles: ROLE_ADMIN }
+         - { path: ^/admin, roles: IS_AUTHENTICATED_FULLY }
+         - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         # - { path: ^/profile, roles: ROLE_USER }
